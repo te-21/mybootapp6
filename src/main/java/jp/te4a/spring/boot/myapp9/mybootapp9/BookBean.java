@@ -1,7 +1,6 @@
 package jp.te4a.spring.boot.myapp9.mybootapp9;
 
-import org.springframework.boot.autoconfigure.domain.EntityScan;
-import org.springframework.stereotype.Indexed;
+import jakarta.persistence.*;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
