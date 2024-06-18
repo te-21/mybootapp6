@@ -13,6 +13,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
     public class BookBean {
+        @Id
         @GeneratedValue
         private Integer id ;
         @Column(nullable = false)
