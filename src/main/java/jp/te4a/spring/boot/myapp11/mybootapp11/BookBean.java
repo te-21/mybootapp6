@@ -22,5 +22,3 @@ import lombok.NoArgsConstructor;
         private String publisher;
         private Integer price;
 }
-
-
